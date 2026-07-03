@@ -1,0 +1,80 @@
+// Dummy customer dataset used for the UI-only Customer Management module.
+// No backend integration — this array is the single source of "seed" data,
+// copied into component state on first load.
+
+const customers = [
+  {
+    id: "CUST-1001",
+    name: "Ayesha Raza",
+    phone: "03211234567",
+    email: "ayesha.raza@example.com",
+    address: "House 12, Street 4, DHA Phase 5, Lahore",
+    status: "Active",
+    walletBalance: 4250.75,
+  },
+  {
+    id: "CUST-1002",
+    name: "Bilal Ahmed",
+    phone: "03331122334",
+    email: "bilal.ahmed@example.com",
+    address: "Flat 3B, Clifton Block 2, Karachi",
+    status: "Active",
+    walletBalance: 0,
+  },
+  {
+    id: "CUST-1003",
+    name: "Sana Tariq",
+    phone: "03451239876",
+    email: "sana.tariq@example.com",
+    address: "45-C, Model Town, Lahore",
+    status: "Inactive",
+    walletBalance: 1200,
+  },
+  {
+    id: "CUST-1004",
+    name: "Usman Khalid",
+    phone: "03011239988",
+    email: "usman.khalid@example.com",
+    address: "Street 9, G-10/2, Islamabad",
+    status: "Active",
+    walletBalance: 875.5,
+  },
+  {
+    id: "CUST-1005",
+    name: "Mahnoor Fatima",
+    phone: "03211239900",
+    email: "mahnoor.fatima@example.com",
+    address: "House 7, Askari 11, Rawalpindi",
+    status: "Inactive",
+    walletBalance: 320,
+  },
+  {
+    id: "CUST-1006",
+    name: "Hamza Sheikh",
+    phone: "03349871234",
+    email: "hamza.sheikh@example.com",
+    address: "Plot 22, Gulshan-e-Iqbal, Karachi",
+    status: "Active",
+    walletBalance: 15600,
+  },
+  {
+    id: "CUST-1007",
+    name: "Zainab Malik",
+    phone: "03123456789",
+    email: "zainab.malik@example.com",
+    address: "House 18, Satellite Town, Rawalpindi",
+    status: "Active",
+    walletBalance: 60,
+  },
+  {
+    id: "CUST-1008",
+    name: "Fahad Iqbal",
+    phone: "03007654321",
+    email: "fahad.iqbal@example.com",
+    address: "Street 5, Bahria Town, Lahore",
+    status: "Inactive",
+    walletBalance: 0,
+  },
+];
+
+export default customers;

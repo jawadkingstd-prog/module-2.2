@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #f5f7fa;
+  --color-ink: #2d3748;
+  --color-ink-soft: #5a6472;
+  --color-card: #ffffff;
+  --color-border: #e6f6ff;
+  --color-border-soft: #f5f7fa;
+
+  --color-ledger-50: #e6f6ff;
+  --color-ledger-100: #cdeeff;
+  --color-ledger-600: #1ea7fd;
+  --color-ledger-700: #1687d1;
+  --color-ledger-900: #0b3d91;
+
+  --color-rust-50: #e9f9ef;
+  --color-rust-100: #c8f0d7;
+  --color-rust-600: #2ecc71;
+  --color-rust-700: #25a85c;
+}
+
+body {
+  background-color: var(--color-paper);
+  background-image: url('https://i.pinimg.com/736x/a7/b6/cb/a7b6cbd41e7703ae5713aa7280e4ada7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-feature-settings: "tnum" 1, "cv11" 1;
+}
+
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* tabular numerals for wallet balances / ids so columns align like a ledger */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
